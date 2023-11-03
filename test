@@ -1,23 +1,30 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="utf-8">
-<title> html test1 </title>
+    <meta charset="UTF-8">
+    <title>Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
-    <h1>DDDD</h1>
-    <p>PPPPPPPPPPP...</p>
+    <header>
+        <h1>我的網頁標題</h1>
+    </header>
 
-<table border="1">
-    <tr>
-        <td>row 1, col 1</td>
-        <td>row 1, col 2</td>
-    </tr>
-    <tr>
-        <td>row 2, col 1</td>
-        <td>row 2, col 2</td>
-    </tr>
-</table>
+    <nav>
+        <ul>
+            <li><a href="#">首頁</a></li>
+            <li><a href="#">關於我們</a></li>
+            <li><a href="#">聯絡我們</a></li>
+        </ul>
+    </nav>
 
+    <main>
+        <h2>歡迎來到我的網頁</h2>
+        <p>這是一個簡單的靜態網頁範例。</p>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 我的網頁</p>
+    </footer>
 </body>
 </html>
